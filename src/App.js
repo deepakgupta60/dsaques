@@ -1,14 +1,10 @@
-import React from "react";
+import React from 'react'
+import StopWatch from './StopWatch'
 
-class App extends React.Component{
-  render()
-  {
-    return(
-      <>
-      <h1>Whole Data TeT</h1>
-      </>
-    )
-  }
+const App = () => {
+  return (
+    <StopWatch/>
+  )
 }
 
-export default App;
+export default App
